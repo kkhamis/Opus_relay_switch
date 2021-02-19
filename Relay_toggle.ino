@@ -75,7 +75,7 @@ void setup() {
 void loop() {
  DateTime now = rtc.now();
  //if ((now.minute()==0)|(now.minute()==10)|(now.minute()==20)|(now.minute()==30)(now.minute()==40)|(now.minute()==50)){//10 min resolution
-if ((now.minute()==0)|(now.minute()==15)|(now.minute()==45)|(now.minute()==45)){ ///15 min resolution
+if ((now.minute()==0)|(now.minute()==15)|(now.minute()==30)|(now.minute()==45)){ ///15 min resolution
   PrintTime();
   Serial.println("sample");
 digitalWrite(relay_switch, HIGH);
