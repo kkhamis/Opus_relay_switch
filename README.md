@@ -1,2 +1,2 @@
 # Opus_relay_switch
-Code and wiring for a arduino pro control switch for a 12v load
+Code and wiring for an arduino pro mini control switch for a 12v load
